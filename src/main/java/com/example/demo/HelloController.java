@@ -17,8 +17,7 @@ public class HelloController {
 
     @RequestMapping("/loko/show")
     public String show() {
-
-        repository.deleteAll();
+        
 
         // save a couple of customers
         // repository.save(new Customer("Alice", "Smith"));
